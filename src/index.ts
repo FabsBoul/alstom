@@ -8,6 +8,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+
     // Show configuration tile for editors only
     if (WA.player.tags.includes('editor')) {
         WA.room.showLayer('exitNorthConfig')
@@ -33,7 +34,7 @@ const config = [
             {
                 label: 'Meet us',
                 className: 'primary',
-                callback: () => WA.openTab('https://play.staging.workadventu.re/@/tcm/workadventure/wa-village'),
+                callback: () => WA.openTab('https://capgemini.com'),
             }
         ]
     },
@@ -44,12 +45,12 @@ const config = [
             {
                 label: 'LinkedIn',
                 className: 'primary',
-                callback: () => WA.openTab('https://www.linkedin.com/company/workadventu-re'),
+                callback: () => WA.openTab('https://www.linkedin.com/company/capgemini'),
             },
             {
                 label: 'Twitter',
                 className: 'primary',
-                callback: () => WA.openTab('https://twitter.com/workadventure_'),
+                callback: () => WA.openTab('https://twitter.com/capgemini'),
             }
         ]
     },
