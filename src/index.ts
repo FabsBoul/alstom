@@ -29,7 +29,7 @@ let currentPopup: any;
 const config = [
     {
         zone: 'needHelp',
-        message: 'Do you need some guidance? We are happy to help you out.',
+        message: 'Your transformation partner for next-gen mission of IS&T.',
         cta: [
             {
                 label: 'Meet us',
@@ -40,7 +40,7 @@ const config = [
     },
     {
         zone: 'followUs',
-        message: 'Hey! Have you already started following us?',
+        message: 'Co-build success together.',
         cta: [
             {
                 label: 'LinkedIn',
