@@ -32,7 +32,7 @@ const config = [
         message: 'Your transformation partner for next-gen mission of IS&T.',
         cta: [
             {
-                label: 'Meet us',
+                label: 'Capgemini',
                 className: 'primary',
                 callback: () => WA.openTab('https://capgemini.com'),
             }
